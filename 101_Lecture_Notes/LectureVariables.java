@@ -1,0 +1,22 @@
+/* 
+    Lecture note example - Variables (String, int, double)
+*/
+
+class LectureVariables{
+    public static void main(String args[]) {
+        // Your Code Goes here!
+        String name;   //Constructing
+        name = new String("Bob and Rob");
+        
+        int number;
+        number = 5;
+        
+        double money;
+        money = 72.67;
+        
+        System.out.println(name + " live in Vancouver");
+        System.out.println(name + " have " + number + " Home Depots");
+        System.out.println(name + " have " + money + " amount of watermelons");
+        
+	}
+}
